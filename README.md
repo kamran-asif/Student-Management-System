@@ -43,13 +43,13 @@ Database Initialization
 Create an SQLite database named datab.db.
 Create a student table with the following schema:
 sql
-Copy code
+  Copy code
 CREATE TABLE student (
     rno INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
     marks INTEGER NOT NULL
 );
-Update API Key
+ Update API Key
 
 Replace "c6e315d09197cec231495138183954bd" with your OpenWeatherMap API key in the temp function:
 python
